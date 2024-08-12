@@ -117,25 +117,7 @@ nav i{
     list-style: none;
     
 }
-.cont{
-    display: flex;
 
-}
-.cont i{
-    font-size: 3.5em;
-    padding: 25px;
-    border: none;
-    border-radius: 50%;
-    background-color: #2ebcfc;
-    color: white;
-    margin-left: 2em
-}
-
-.heading{
-    text-align: center;
-   margin-left: 100px;
-   padding: 20px;
-}
 .arrow i{
     font-size:  em;
     position: relative;
@@ -194,6 +176,7 @@ button{
 #pricing{
     
     margin-top: 90px;
+    
 }
 
 #pricing h1, h2{
@@ -207,6 +190,26 @@ button{
     margin: 50px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.offer img{
+    
+   margin-left: 4em;
+   
+}
+
+.basic, .standard, .premium{
+    margin: 20px;
+    /* width: 400px; */
+    /* height: 100px; */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+}
+.basic, .standard, .premium a{
+  text-align: center;
 }
 
 .offer  li{
@@ -216,3 +219,456 @@ button{
     color: gray;
 }
 
+
+.ecommerce h1{
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.ecommerce p{
+    text-align: center;
+    color: gray;
+    font-weight: 300;
+}
+.plans{
+    
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.silver-plan, .gold-plan, .custom-solutions {
+    display: inline-block;
+    margin: 20px;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    
+  }
+  
+  .card-image {
+    height: 150px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .card-description {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .card-features {
+    /* text-align: center; */
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card-features li {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .card-stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card-stats li {
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-button:hover {
+    background-color: #3e8e41;
+  }
+
+
+  /* Features */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.feature i {
+    font-size: 48px;
+    color: #1e90ff;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+    }
+}
+
+/* Portfolio */
+
+  .card {
+    position: relative; /* Create a containing block for the read-more link */
+  }
+
+  .card img {
+    width: 400px; /* Make the image take up the full width of the card */
+  }
+
+  .read-more {
+    display: none; /* Hide the read-more link initially */
+    position: absolute; /* Position the read-more link absolutely */
+    top: 0; /* Place the read-more link at the top of the image */
+    left: 0; /* Place the read-more link at the left of the image */
+    width: 400; /* Make the read-more link take up the full width of the image */
+    background-color: #fff; /* Add a background color to the read-more link */
+    text-align: center; /* Center the text within the read-more link */
+  }
+
+  .card:hover .read-more {
+    display: block; /* Show the read-more link when the card is hovered over */
+  }
+
+
+/* TEstimonials */
+.testimonials-section {
+    text-align: center;
+    background-color: #eef3f8;
+    padding: 50px 0;
+}
+
+.testimonials-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonials-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.testimonial i {
+    font-size: 20px;
+    color: #1e90ff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.testimonial h3 {
+    font-size: 18px;
+    color: #333;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff8800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+
+
+.contact-us {
+    font-family: Arial, sans-serif;
+    background-color: #0a0f29;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    background-image: url(Images/contact\ us.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    /* position: fixed; */
+    background-size: cover;
+    
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    /* height: 100vh; */
+    
+    width: 100%;
+} 
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    margin-left: 30rem;
+    
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+    color: wheat;
+    
+}
+
+.contact-info h2 {
+    margin: 0;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info ul li {
+    margin: 5px 0;
+}
+
+.contact-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+}
+
+.captcha input {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.foot{
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 55px;
+    display: flex;
+    
+}
+
+.cond{
+    width: 400px;
+} 
+
+.cond ul li{
+    padding: 25px;
+    list-style: none;
+}
+
+.cond ul li a{
+    text-decoration: none;
+    color: white;
+}
