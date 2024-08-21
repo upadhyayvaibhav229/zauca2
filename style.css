@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Ojuju:wght@200..800&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     font-family: "Gupter", serif;
     scroll-behavior: unset;
-    
+
 }
 
 
-body{
+body {
     width: 100%;
     height: 100vh;
 }
-.footer{
+
+.footer {
     background-color: black;
     /* height: 50px; */
     /* width: 100vw; */
@@ -22,30 +24,33 @@ body{
     align-items: center;
     padding: 10px;
 
-    
+
 }
 
-.footer span{
+.footer span {
     margin: 30px;
     font-size: 1.5em;
     justify-content: baseline;
 }
-footer span i{
+
+footer span i {
     padding: 10px;
     color: grey;
-    
+
     /* font-size: 1.5em; */
-    
+
 
 }
-.socialmed i{
+
+.socialmed i {
     position: relative;
-    right: 25px ;
+    right: 25px;
     margin-right: 25px;
     font-size: 1.5em;
     cursor: pointer;
 }
-.navbar{
+
+.navbar {
     display: flex;
     /* align-items: center;
     justify-content: center; */
@@ -53,12 +58,12 @@ footer span i{
     margin: 23px;
 }
 
-nav{
+nav {
     display: flex;
     margin: 10px;
 }
 
-nav h1 a{
+nav h1 a {
     text-decoration: none;
     color: black;
     padding: 15px;
@@ -67,15 +72,13 @@ nav h1 a{
 }
 
 
-nav i{
+nav i {
     font-size: 20px;
     margin: 5px;
     padding: 2px;
 }
 
-.main{
-    /* height: 100%;
-    width: 100%; */
+.main {
     background-image: url('Images/bgi.jpg');
     background-size: cover;
     background-position: center;
@@ -83,12 +86,13 @@ nav i{
     text-align: center;
     color: #fff;
     padding: 100px 20px;
-    
+
 }
 
 .main h1 {
     font-size: 3.5em;
     margin-bottom: 20px;
+    color: white;
 }
 
 .main ul {
@@ -97,34 +101,47 @@ nav i{
     text-align: left;
     max-width: 600px;
     margin: 0 auto;
+    color: white;
 }
-.main ul li, p {
+
+.main ul li,
+p {
     font-size: 1.5em;
     margin: 10px 0;
     text-align: center;
+    color: white;
 }
+
 .main .contact {
     /* margin-top: 20px; */
     font-size: 1.2em;
     padding: 15px;
+    color: white;
 }
 
-.main .contact   a {
-    
+.main .contact a {
+
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     list-style: none;
-    
+
 }
 
-.arrow i{
-    font-size:  em;
+.main .contact p {
+
+    color: #fff;
+
+
+}
+
+.arrow i {
+    font-size: em;
     position: relative;
     top: 0px;
 }
 
-.main .arrow{
+.main .arrow {
     animation: move-to-right 1s linear infinite alternate;
     cursor: pointer;
     font-size: 3em;
@@ -145,12 +162,14 @@ nav i{
         transform: translateY(-10px);
     }
 }
-#top{
+
+#top {
     padding: 10px;
+    color: white;
 }
 
 
-button{
+button {
     padding: 20px 60px;
     margin: 25px;
     /* width: 500px; */
@@ -161,45 +180,50 @@ button{
     cursor: pointer;
 
 }
-#btn1{
+
+#btn1 {
     background-color: #03a9f4;
-    color: white    ;
+    color: white;
 
 }
 
-#btn1:hover{
+#btn1:hover {
 
     background-color: #2ebcfc;
-    
+
 }
 
-#pricing{
-    
+#pricing {
+
     margin-top: 90px;
-    
+
 }
 
-#pricing h1, h2{
+#pricing h1,
+h2 {
     text-align: center;
     font-size: 2.5em;
     line-height: 1.5em;
 }
 
 
-.offer{
+.offer {
     margin: 50px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  
-}
-.offer img{
-    
-   margin-left: 4em;
-   
+
 }
 
-.basic, .standard, .premium{
+.offer img {
+
+    margin-left: 4em;
+
+}
+
+.basic,
+.standard,
+.premium {
     margin: 20px;
     /* width: 400px; */
     /* height: 100px; */
@@ -208,11 +232,14 @@ button{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: space-around;
 }
-.basic, .standard, .premium a{
-  text-align: center;
+
+.basic,
+.standard,
+.premium a {
+    text-align: center;
 }
 
-.offer  li{
+.offer li {
     list-style: none;
     font-size: 1.5em;
     margin: 10px;
@@ -220,26 +247,29 @@ button{
 }
 
 
-.ecommerce h1{
+.ecommerce h1 {
     text-align: center;
     padding: 25px;
-    
+
 }
 
-.ecommerce p{
+.ecommerce p {
     text-align: center;
     color: gray;
     font-weight: 300;
 }
-.plans{
-    
-    display: flex;    
+
+.plans {
+
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
-.silver-plan, .gold-plan, .custom-solutions {
+.silver-plan,
+.gold-plan,
+.custom-solutions {
     display: inline-block;
     margin: 20px;
     width: 400px;
@@ -247,77 +277,77 @@ button{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: space-around;
-    
-  }
-  
-  .card-image {
-    height: 150px;
-    overflow: hidden;
+
+}
+
+.card-image {
+    height: auto;
+    /* overflow: hidden; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  
-  .card-image img {
+}
+
+.card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .card-content {
+}
+
+.card-content {
     padding: 20px;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
-  
-  .card-description {
+}
+
+
+.card-description {
     font-size: 1.4rem;
     color: #666;
     margin-bottom: 20px;
-  }
-  
-  .card-features {
+}
+
+.card-features {
     /* text-align: center; */
     font-size: 1.5rem;
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .card-features li {
+}
+
+.card-features li {
     margin-bottom: 10px;
     color: gray;
-  }
-  
-  .card-stats {
+}
+
+.card-stats {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .card-stats li {
+}
+
+.card-stats li {
     margin-bottom: 10px;
-  }
-  
-  .card-button {
+}
+
+.card-button {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .card-button:hover {
+}
+
+.card-button:hover {
     background-color: #3e8e41;
-  }
+}
 
 
-  /* Features */
+/* Features */
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -367,27 +397,37 @@ button{
 
 /* Portfolio */
 
-  .card {
-    position: relative; /* Create a containing block for the read-more link */
-  }
+.card {
+    position: relative;
+    /* Create a containing block for the read-more link */
+}
 
-  .card img {
-    width: 400px; /* Make the image take up the full width of the card */
-  }
+.card img {
+    width: 400px;
+    /* Make the image take up the full width of the card */
+}
 
-  .read-more {
-    display: none; /* Hide the read-more link initially */
-    position: absolute; /* Position the read-more link absolutely */
-    top: 0; /* Place the read-more link at the top of the image */
-    left: 0; /* Place the read-more link at the left of the image */
-    width: 400; /* Make the read-more link take up the full width of the image */
-    background-color: #fff; /* Add a background color to the read-more link */
-    text-align: center; /* Center the text within the read-more link */
-  }
+.read-more {
+    display: none;
+    /* Hide the read-more link initially */
+    position: absolute;
+    /* Position the read-more link absolutely */
+    top: 0;
+    /* Place the read-more link at the top of the image */
+    left: 0;
+    /* Place the read-more link at the left of the image */
+    width: 400;
+    /* Make the read-more link take up the full width of the image */
+    background-color: #fff;
+    /* Add a background color to the read-more link */
+    text-align: center;
+    /* Center the text within the read-more link */
+}
 
-  .card:hover .read-more {
-    display: block; /* Show the read-more link when the card is hovered over */
-  }
+.card:hover .read-more {
+    display: block;
+    /* Show the read-more link when the card is hovered over */
+}
 
 
 /* TEstimonials */
@@ -540,21 +580,21 @@ button:hover {
     background-color: #0a0f29;
     margin: 0;
     padding: 0;
-    /* display: flex; */
+
     background-image: url(Images/contact\ us.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    /* position: fixed; */
+
     background-size: cover;
-    
+
     display: inline-block;
     justify-content: center;
-    align-items: center; 
-    /* height: 100vh; */
-    
+    align-items: center;
+
+
     width: 100%;
-} 
+}
 
 .contact-container {
     display: flex;
@@ -565,14 +605,14 @@ button:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     width: 700px;
     margin-left: 30rem;
-    
+
 }
 
 .contact-info {
     text-align: center;
     margin-bottom: 20px;
     color: wheat;
-    
+
 }
 
 .contact-info h2 {
@@ -614,7 +654,9 @@ button:hover {
     color: #333;
 }
 
-.contact-form input, .contact-form select, .contact-form textarea {
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -649,26 +691,9 @@ button:hover {
     background-color: #0056b3;
 }
 
-
-.foot{
-    height: 300px;
+footer{
     background-color: black;
-    color: white;
-    padding: 55px;
+    height: 400px;
     display: flex;
-    
 }
 
-.cond{
-    width: 400px;
-} 
-
-.cond ul li{
-    padding: 25px;
-    list-style: none;
-}
-
-.cond ul li a{
-    text-decoration: none;
-    color: white;
-}
