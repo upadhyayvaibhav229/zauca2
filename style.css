@@ -544,13 +544,14 @@ p {
     margin-bottom: 20px;
 }
 
-h2 {
+.plan h2 {
     color: #333;
     font-size: 1.8em;
     margin-bottom: 20px;
 }
 
-ul {
+.plan ul {
+    
     text-align: left;
     margin: 0;
     padding: 0;
@@ -560,8 +561,9 @@ ul {
     margin-bottom: 20px;
 }
 
-ul li {
+.plan ul li {
     margin-bottom: 10px;
+    color: black;
 }
 
 button {
@@ -593,16 +595,38 @@ button:hover {
     background-attachment: fixed;
 
     background-size: cover;
-    display: flex;
+  
     padding: 50px;
-
-
+    position: relative;
+ 
     width: 100%;
 }
 
-.contact-container {
+.contact-us h2{
+    color: white;
+    font-size: 2rem;
+    padding: 40px auto;
+}
+
+.contact-info{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.contact-info p, ul{
+    color: white;
+    list-style: none;
+}
+.contact-info li a{
+    text-decoration: none;
+    
+    color: blue;
+    
+}
+.contact-container {
+ 
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -612,41 +636,6 @@ button:hover {
 
 }
 
-.contact-info {
-    text-align: center;
-    margin-bottom: 20px;
-    color: wheat;
-
-}
-
-.contact-info h2 {
-    margin: 0;
-    color: #333;
-}
-
-.contact-info p {
-    margin: 10px 0;
-    color: #555;
-}
-
-.contact-info ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-info ul li {
-    margin: 5px 0;
-}
-
-.contact-info ul li a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.contact-info ul li a:hover {
-    text-decoration: underline;
-}
 
 .contact-form {
     display: flex;
@@ -666,6 +655,7 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+   
 }
 
 .contact-form textarea {
@@ -695,25 +685,25 @@ button:hover {
     background-color: #0056b3;
 }
 
-footer{
+.fot{
     background-color: black;
     height: 400px;
     display: flex;
 }
 
-footer div{
+.fot div{
     width: 600px;
     border: 1px solid white;
     border-top: black;
 }
-footer div li a{
+.fot div li a{
     text-decoration: none;
     list-style: none;
     display: flex;
     flex-direction: column;
     
 }
-footer div li a:hover{
+.fot div li a:hover{
     color: blue;
     
 }
